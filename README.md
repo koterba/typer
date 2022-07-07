@@ -21,3 +21,12 @@
 <a href="https://en.wikipedia.org/wiki/Privacy-invasive_software"><img src="https://img.shields.io/badge/privacy-✓-green?style=flat"/></a>
 <a href="#"><img alt="Code grade" src="https://api.codiga.io/project/30518/status/svg"/></a>
 </p>
+
+---
+
+## Getting Started
+
+- Clone the repo: ``git clone https://github.com/alannxq/typer.git``
+- CD into the directory: ``cd typer``
+- Run the program: ``python typer.py``
+
