@@ -1,2 +1,3 @@
-# typer
-A command line application to test your typing speed
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/947092663914623016/994569636492349510/typer.png" />
+</p>
