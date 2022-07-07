@@ -30,6 +30,15 @@
 - CD into the directory: ``cd typer``
 - Run the program: ``python typer.py``
 
+## Requirements
+
+- The **curses** module
+
+---
+
+- On Windows: ``pip install windows-curses`` or ``py -m pip install windows-curses``
+- On Linux/macOS: ``pip install curses``
+
 ## Pictures
 
 <br>
