@@ -30,3 +30,10 @@
 - CD into the directory: ``cd typer``
 - Run the program: ``python typer.py``
 
+## Pictures
+
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/947092663914623016/994576142650572880/unknown.png" />
+  <img src="https://cdn.discordapp.com/attachments/947092663914623016/994576661574078494/typer_ss_1.png" />
+  <img src="https://cdn.discordapp.com/attachments/947092663914623016/994576423689932850/unknown.png" />
+</p>
