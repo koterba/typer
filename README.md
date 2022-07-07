@@ -35,7 +35,7 @@
 <br>
 
 <p align="center">
-  <img width="60%" src="https://cdn.discordapp.com/attachments/947092663914623016/994576142650572880/unknown.png" />
-  <img width="60%" src="https://cdn.discordapp.com/attachments/947092663914623016/994576661574078494/typer_ss_1.png" />
-  <img width="60%" src="https://cdn.discordapp.com/attachments/947092663914623016/994576423689932850/unknown.png" />
+  <img width="60%" src="https://cdn.discordapp.com/attachments/947092663914623016/994608090970337410/unknown.png" />
+  <img width="60%" src="https://cdn.discordapp.com/attachments/947092663914623016/994608167851933696/unknown.png" />
+  <img width="60%" src="https://cdn.discordapp.com/attachments/947092663914623016/994608245228437594/unknown.png" />
 </p>
