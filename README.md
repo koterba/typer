@@ -3,3 +3,5 @@
   <h3 align="center">Typer</h3>
   <p align="center">A command line application for testing your typing speed.</p>
 </p>
+
+
