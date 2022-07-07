@@ -34,10 +34,8 @@
 
 - The **curses** module
 
----
-
-- On Windows: ``pip install windows-curses`` or ``py -m pip install windows-curses``
-- On Linux/macOS: ``pip install curses``
+> On Windows: ``pip install windows-curses`` or ``py -m pip install windows-curses``
+> On Linux/macOS: ``pip install curses``
 
 ## Pictures
 
