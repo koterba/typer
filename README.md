@@ -38,7 +38,7 @@
 
 > On Linux/macOS: ``pip install curses``
 
-## Pictures
+## Images
 
 <br>
 
