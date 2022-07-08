@@ -45,5 +45,5 @@
 <p align="center">
   <img width="60%" src="https://cdn.discordapp.com/attachments/947092663914623016/994608090970337410/unknown.png" />
   <img width="60%" src="https://cdn.discordapp.com/attachments/947092663914623016/994608167851933696/unknown.png" />
-  <img width="60%" src="https://cdn.discordapp.com/attachments/947092663914623016/994608245228437594/unknown.png" />
+  <img width="60%" src="https://cdn.discordapp.com/attachments/947092663914623016/994908052585189386/unknown.png" />
 </p>

@@ -42,10 +42,25 @@ def position_cursor(stdscr, target_text, current_text):
         the user is currently typing'''
     stdscr.move(curses.LINES // 2, (curses.COLS // 2 - len(target_text) // 2) + len(current_text) + 1)
 
+def work_out_correctness(target_text, current_text) -> float:
+    correct_count = 0
 
-def print_ending(stdscr, wpm):
+    for char1, char2 in zip(current_text, target_text):
+        print(f"{char1} {char2}")
+        if char1 == char2:
+            correct_count += 1
+
+    percentage = round((correct_count / len(target_text)) * 100)
+    print(percentage, correct_count)
+
+    return percentage 
+
+def print_ending(stdscr, wpm, correct_percentage):
     '''clears the screen, outputs results
         waits for enter, else it quits the game'''
+
+    result = f"{wpm} WPM    {correct_percentage}% Accurate"
+
     stdscr.clear()
     stdscr.addstr(
         curses.LINES // 2 - 2,
@@ -54,8 +69,8 @@ def print_ending(stdscr, wpm):
     )
     stdscr.addstr(
         curses.LINES // 2,
-        curses.COLS // 2 - len(f"{wpm} WPM") // 2,
-        f"{wpm} WPM",
+        curses.COLS // 2 - len(result) // 2,
+        result,
         curses.color_pair(1)
     )
     stdscr.addstr(
@@ -160,12 +175,18 @@ def wpm_test(stdscr, target_text):
             current_text.pop()
         elif len(current_text) +1 <= len(target_text):
             current_text.append(key)
+        
+        if len(current_text) == len(target_text):
+            percentage = work_out_correctness(target_text, current_text)
+            print_ending(stdscr, wpm, percentage)
+            break
    
         stdscr.clear()
     
-        if print_correct_word(stdscr, current_text, target_text):
-            print_ending(stdscr, wpm)
-            break
+        print_correct_word(stdscr, current_text, target_text)
+            # percentage = work_out_correctness(target_text, current_text)
+            # print_ending(stdscr, wpm, percentage)
+            # break
 
         position_cursor(stdscr, target_text, current_text)
     
