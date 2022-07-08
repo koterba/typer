@@ -46,12 +46,10 @@ def work_out_correctness(target_text, current_text) -> float:
     correct_count = 0
 
     for char1, char2 in zip(current_text, target_text):
-        print(f"{char1} {char2}")
         if char1 == char2:
             correct_count += 1
 
     percentage = round((correct_count / len(target_text)) * 100)
-    print(percentage, correct_count)
 
     return percentage 
 
@@ -184,9 +182,6 @@ def wpm_test(stdscr, target_text):
         stdscr.clear()
     
         print_correct_word(stdscr, current_text, target_text)
-            # percentage = work_out_correctness(target_text, current_text)
-            # print_ending(stdscr, wpm, percentage)
-            # break
 
         position_cursor(stdscr, target_text, current_text)
     
