@@ -2,7 +2,7 @@ from curses import wrapper
 import curses
 import random
 import time
-
+ 
 sentences = [
     "The miniature pet elephant became the envy of the neighborhood.",
     "He decided to live his life by the big beats manifesto.",
