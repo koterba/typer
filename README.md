@@ -7,7 +7,7 @@
 <p align="center">
   <h3 align="center">Typer</h3>
 </p>
- 
+
 ---
 
 <p align="center">
