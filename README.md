@@ -22,7 +22,7 @@
 <a href="#"><img alt="Code grade" src="https://api.codiga.io/project/30518/status/svg"/></a>
 </p>
 
----
+--- 
 
 ## Getting Started
 
